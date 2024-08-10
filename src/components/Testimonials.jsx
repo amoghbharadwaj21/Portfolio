@@ -16,7 +16,7 @@ function Testimonials() {
                             <p className="my-4">I highly recommend Amogh to any organization seeking a dedicated and capable software development professional."</p>
                         </blockquote>
                         <figcaption className="flex justify-center items-center space-x-3">
-                            <img className="w-16 h-16 rounded-full" src={Raghuveer} alt="profile picture" />
+                            <img className="w-16 h-16 rounded-full" src={Raghuveer} alt="raghuveer bhat" />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
                                 <div>Raghuveer Bhat</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">Director, DeepByte Technology</div>
