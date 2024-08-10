@@ -20,9 +20,6 @@ function Projects() {
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             AI-Amatya
                         </h3>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            A Streamlit-based web application for interacting with and querying the content of uploaded PDF documents. Utilizes machine learning models to process text and deliver accurate responses.
-                        </p>
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 Python
@@ -34,6 +31,10 @@ function Projects() {
                                 Streamlit
                             </span>
                         </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            A Streamlit-based web application for interacting with and querying the content of uploaded PDF documents. Utilizes machine learning models to process text and deliver accurate responses.
+                        </p>
+                        
                         <a href="https://amatya.onrender.com/" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
@@ -49,9 +50,6 @@ function Projects() {
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             Farm-Connect
                         </h3>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                        A comprehensive software solution designed to streamline and optimize the management of crop inventory. Aims to address the challenges faced by farmers and agricultural businesses in efficiently monitor and managing their crop inventory throughout the cycle.
-                        </p>
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 React JS
@@ -63,6 +61,10 @@ function Projects() {
                                 MySQL
                             </span>
                         </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                        A comprehensive software solution designed to streamline and optimize the management of crop inventory. Aims to address the challenges faced by farmers and agricultural businesses in efficiently monitor and managing their crop inventory throughout the cycle.
+                        </p>
+                        
                         <a href="https://github.com/amoghbharadwaj21/Farm.Connect" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
@@ -78,9 +80,7 @@ function Projects() {
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             Ad-Predict
                         </h3>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            Implements a simple neural network to analyze the impact of marketing expenses on sales. Utilizes Python libraries for linear regression modeling and data analysis.
-                        </p>
+                      
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 Python
@@ -92,6 +92,9 @@ function Projects() {
                                 Pandas
                             </span>
                         </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            Implements a simple neural network to analyze the impact of marketing expenses on sales. Utilizes Python libraries for linear regression modeling and data analysis.
+                        </p>
                         <a href="https://github.com/amoghbharadwaj21/Single-Perceptron-Neural-Network" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
@@ -107,9 +110,7 @@ function Projects() {
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             AskHowLabs
                         </h3>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            A visually appealing and interactive web application for showcasing company services.
-                        </p>
+                       
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 React JS
@@ -121,6 +122,9 @@ function Projects() {
                                 SCSS
                             </span>
                         </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            A visually appealing and interactive web application for showcasing company services.
+                        </p>
                         <a href="https://askhowlabs.netlify.app/" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
@@ -136,9 +140,7 @@ function Projects() {
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             EduPredictor
                         </h3>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            An AI system for predicting student performance based on historical academic data. Developed with Python and deployed on AWS for a scalable solution.
-                        </p>
+                        
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 Python
@@ -150,6 +152,9 @@ function Projects() {
                                 Machine Learning
                             </span>
                         </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            An AI system for predicting student performance based on historical academic data. Developed with Python and deployed on AWS for a scalable solution.
+                        </p>
                         <a href="http://testmarksprediction-env.eba-wpkyse4j.ap-south-1.elasticbeanstalk.com/" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">

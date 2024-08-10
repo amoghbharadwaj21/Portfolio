@@ -23,7 +23,7 @@ function TechStack() {
                             <DiJavascript1 className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">JavaScript</h3>
-                        <ul className="text-gray-500 dark:text-gray-400 list-disc pl-5">
+                        <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>React</li>
                             <li>Next.js</li>
                             <li>NestJS</li>
@@ -38,7 +38,7 @@ function TechStack() {
                             <FaPython className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Python</h3>
-                        <ul className="text-gray-500 dark:text-gray-400 list-disc pl-5">
+                        <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>NumPy</li>
                             <li>Pandas</li>
                             <li>Matplotlib</li>
@@ -53,7 +53,7 @@ function TechStack() {
                         <MdCloud className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Cloud Platform</h3>
-                        <ul className="text-gray-500 dark:text-gray-400 list-disc pl-5">
+                        <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>AWS</li>
                         </ul>
                     </div>
@@ -64,7 +64,7 @@ function TechStack() {
                             <FaDatabase className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Databases</h3>
-                        <ul className="text-gray-500 dark:text-gray-400 list-disc pl-5">
+                        <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>MySQL</li>
                             <li>MongoDB</li>
                         </ul>
