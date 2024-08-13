@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaArrowRight } from 'react-icons/fa';
 
 function Projects() {
     return (
@@ -17,6 +17,7 @@ function Projects() {
                 <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-8 lg:grid-cols-3">
                     {/* AI Amatya Card */}
                     <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             AI-Amatya
                         </h3>
@@ -32,16 +33,103 @@ function Projects() {
                             </span>
                         </div>
                         <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            A Streamlit-based web application for interacting with and querying the content of uploaded PDF documents. Utilizes machine learning models to process text and deliver accurate responses.
+                            A web application for interacting with and querying the content of uploaded PDF documents. Utilizes machine learning models to process text and deliver accurate responses.
                         </p>
-                        
+
                         <a href="https://amatya.onrender.com/" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
                             View Project
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+                        </a>
+                    </div>
+
+                    {/* Student Performance Prediction Card */}
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                            EduPredictor
+                        </h3>
+
+                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Python
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                AWS
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Machine Learning
+                            </span>
+                        </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            An AI system for predicting student performance based on historical academic data. Developed with Python and deployed on AWS for a scalable solution.
+                        </p>
+                        <a href="http://testmarksprediction-env.eba-wpkyse4j.ap-south-1.elasticbeanstalk.com/" title="View Project"
+                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            role="button">
+                            View Project
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+
+                        </a>
+                    </div>
+
+
+
+                    {/* AdPredict Card */}
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                            Ad-Predict
+                        </h3>
+
+                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Python
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                NumPy
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Pandas
+                            </span>
+                        </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            Implements a simple neural network to analyze the impact of marketing expenses on sales. Utilizes Python libraries for linear regression modeling and data analysis.
+                        </p>
+                        <a href="https://github.com/amoghbharadwaj21/Single-Perceptron-Neural-Network" title="View Project"
+                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            role="button">
+                            View Project
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+
+                        </a>
+                    </div>
+
+                    {/* AskHowLabs Card */}
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                            AskHowLabs
+                        </h3>
+
+                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                React JS
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                JavaScript
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                SCSS
+                            </span>
+                        </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                            A visually appealing and interactive web application for showcasing company services.
+                        </p>
+                        <a href="https://askhowlabs.netlify.app/" title="View Project"
+                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            role="button">
+                            View Project
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+
                         </a>
                     </div>
 
@@ -62,106 +150,15 @@ function Projects() {
                             </span>
                         </div>
                         <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                        A comprehensive software solution designed to streamline and optimize the management of crop inventory. Aims to address the challenges faced by farmers and agricultural businesses in efficiently monitor and managing their crop inventory throughout the cycle.
+                            A comprehensive software solution designed to streamline and optimize the management of crop inventory. Aims to address the challenges faced by farmers and agricultural businesses in efficiently monitor and managing their crop inventory throughout the cycle.
                         </p>
-                        
+
                         <a href="https://github.com/amoghbharadwaj21/Farm.Connect" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
                             View Project
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
 
-                    {/* AdPredict Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
-                            Ad-Predict
-                        </h3>
-                      
-                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Python
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                NumPy
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Pandas
-                            </span>
-                        </div>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            Implements a simple neural network to analyze the impact of marketing expenses on sales. Utilizes Python libraries for linear regression modeling and data analysis.
-                        </p>
-                        <a href="https://github.com/amoghbharadwaj21/Single-Perceptron-Neural-Network" title="View Project"
-                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                            role="button">
-                            View Project
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
-
-                    {/* AskHowLabs Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
-                            AskHowLabs
-                        </h3>
-                       
-                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                React JS
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                JavaScript
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                SCSS
-                            </span>
-                        </div>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            A visually appealing and interactive web application for showcasing company services.
-                        </p>
-                        <a href="https://askhowlabs.netlify.app/" title="View Project"
-                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                            role="button">
-                            View Project
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
-
-                    {/* Student Performance Prediction Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
-                            EduPredictor
-                        </h3>
-                        
-                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Python
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                AWS
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Machine Learning
-                            </span>
-                        </div>
-                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
-                            An AI system for predicting student performance based on historical academic data. Developed with Python and deployed on AWS for a scalable solution.
-                        </p>
-                        <a href="http://testmarksprediction-env.eba-wpkyse4j.ap-south-1.elasticbeanstalk.com/" title="View Project"
-                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                            role="button">
-                            View Project
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
                         </a>
                     </div>
 
@@ -175,9 +172,8 @@ function Projects() {
                             className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-primary-700 rounded-xl hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mt-4"
                             role="button">
                             Visit GitHub
-                            <svg aria-hidden="true" className="w-5 h-5 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+
                         </a>
                     </div>
 

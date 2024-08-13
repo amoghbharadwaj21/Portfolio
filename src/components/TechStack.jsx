@@ -18,8 +18,9 @@ function TechStack() {
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {/* Tech Item 1: JavaScript */}
-                    <div className="flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
+                    <div className="relative flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden group">
+                        <div className="absolute inset-0 border-2 border-transparent rounded-lg group-hover:border-blue-500 group-hover:shadow-neon transition-all duration-300"></div>
+                        <div className="relative z-10 flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
                             <DiJavascript1 className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">JavaScript</h3>
@@ -33,8 +34,9 @@ function TechStack() {
                     </div>
 
                     {/* Tech Item 2: Python */}
-                    <div className="flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
+                    <div className="relative flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden group">
+                        <div className="absolute inset-0 border-2 border-transparent rounded-lg group-hover:border-green-500 group-hover:shadow-neon transition-all duration-300"></div>
+                        <div className="relative z-10 flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
                             <FaPython className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Python</h3>
@@ -48,9 +50,10 @@ function TechStack() {
                     </div>
 
                     {/* Tech Item 3: Cloud Platforms */}
-                    <div className="flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
-                        <MdCloud className="w-8 h-8 text-primary-600 dark:text-primary-300" />
+                    <div className="relative flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden group">
+                        <div className="absolute inset-0 border-2 border-transparent rounded-lg group-hover:border-purple-500 group-hover:shadow-neon transition-all duration-300"></div>
+                        <div className="relative z-10 flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
+                            <MdCloud className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Cloud Platform</h3>
                         <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
@@ -59,8 +62,9 @@ function TechStack() {
                     </div>
 
                     {/* Tech Item 4: Databases */}
-                    <div className="flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
+                    <div className="relative flex flex-col items-center p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden group">
+                        <div className="absolute inset-0 border-2 border-transparent rounded-lg group-hover:border-pink-500 group-hover:shadow-neon transition-all duration-300"></div>
+                        <div className="relative z-10 flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
                             <FaDatabase className="w-8 h-8 text-primary-600 dark:text-primary-300" />
                         </div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Databases</h3>
