@@ -15,8 +15,8 @@ function Experience() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12 text-center">
                     {/* Trustworthy Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern</h3>
+                    <div className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern</h3>
                         <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-3">
                             Trustworthy
                         </p>
@@ -40,7 +40,7 @@ function Experience() {
                     </div>
 
                     {/* DeepByte Technology Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                    <div className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
                         <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern (Frontend)</h3>
                         <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-3">
                             DeepByte Technology

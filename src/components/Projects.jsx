@@ -16,7 +16,7 @@ function Projects() {
 
                 <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-8 lg:grid-cols-3">
                     {/* AI Amatya Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
                         
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             AI-Amatya
@@ -29,7 +29,7 @@ function Projects() {
                                 Machine Learning
                             </span>
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Streamlit
+                                Flask
                             </span>
                         </div>
                         <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
@@ -45,8 +45,8 @@ function Projects() {
                     </div>
 
                     {/* Student Performance Prediction Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             EduPredictor
                         </h3>
 
@@ -76,8 +76,8 @@ function Projects() {
 
 
                     {/* AdPredict Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             Ad-Predict
                         </h3>
 
@@ -105,8 +105,8 @@ function Projects() {
                     </div>
 
                     {/* AskHowLabs Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             AskHowLabs
                         </h3>
 
@@ -134,8 +134,8 @@ function Projects() {
                     </div>
 
                     {/* Farm.Connect Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800">
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             Farm-Connect
                         </h3>
                         <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
@@ -163,7 +163,7 @@ function Projects() {
                     </div>
 
                     {/* GitHub Card */}
-                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center">
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
                         <FaGithub className="w-16 h-16 text-gray-900 dark:text-white mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             View more on GitHub

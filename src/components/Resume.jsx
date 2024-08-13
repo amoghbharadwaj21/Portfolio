@@ -18,8 +18,8 @@ function Resume() {
                     <a
                         href="/resume.pdf"
                         download
-                        className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center justify-center transition-colors transform hover:border-blue-500 dark:hover:border-blue-300"
-                    >
+                        className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent flex flex-col items-center justify-center transition-colors transform hover:border-blue-500 dark:hover:border-blue-300"
+                        >
                         <FaFileDownload className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
                             Download Resume

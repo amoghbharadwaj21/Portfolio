@@ -21,7 +21,7 @@ function Contact() {
                         href="https://www.instagram.com/amogha_bharadwaj/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700"
+                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500"
                     >
                         <FaInstagram className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
@@ -35,7 +35,7 @@ function Contact() {
                         href="https://www.linkedin.com/in/amogh-m-985490216"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700"
+                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800"
                     >
                         <FaLinkedin className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
@@ -49,7 +49,7 @@ function Contact() {
                         href="https://github.com/amoghbharadwaj21"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700"
+                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700 hover:bg-gradient-to-r hover:from-gray-800 hover:to-black"
                     >
                         <FaGithub className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
@@ -61,7 +61,7 @@ function Contact() {
                     {/* Email Card */}
                     <a
                         href="mailto:amoghabharadwaj21@gmail.com"
-                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700"
+                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-700"
                     >
                         <MdEmail className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
                         <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
