@@ -21,7 +21,7 @@ function Testimonials() {
                             <img className="w-16 h-16 rounded-full" src={Raghuveer} alt="raghuveer bhat" />
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
                                 <div>Raghuveer Bhat</div>
-                                <div className="text-sm font-light text-gray-500 dark:text-gray-400 italic">Director, <span className="block">DeepByte Technology</span></div>
+                                <div className="text-sm font-light text-gray-500 dark:text-gray-400 italic">Director<span className="block">DeepByte Technology</span></div>
                             </div>
                         </figcaption>
                     </figure>
@@ -38,7 +38,7 @@ function Testimonials() {
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
                                 <div>Sudhir S R</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400 italic">
-                                    Director - Operations, <span className="block">GTD Technologies</span>
+                                    Director<span className="block">Vtrike Pvt Ltd</span>
                                 </div>
                             </div>
                         </figcaption>
