@@ -12,15 +12,15 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className='dark'>
-      <Navbar/>
-      <About/>
-      <TechStack/>
-      <Projects/>
-      <Experience/>
-      <Resume/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <About />
+      <TechStack />
+      <Projects />
+      <Experience />
+      <Resume />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }
