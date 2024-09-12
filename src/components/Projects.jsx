@@ -64,7 +64,7 @@ function Projects() {
                         <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
                             An AI system for predicting student performance based on historical academic data. Developed with Python and deployed on AWS for a scalable solution.
                         </p>
-                        <a href="http://testmarksprediction-env.eba-wpkyse4j.ap-south-1.elasticbeanstalk.com/" title="View Project"
+                        <a href="http://testmarksprediction.ap-south-1.elasticbeanstalk.com" title="View Project"
                             className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                             role="button">
                             View Project
