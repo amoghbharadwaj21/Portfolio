@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Amogh's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for my personal portfolio website, which showcases my skills, projects, and experience. The website is hosted on GitHub Pages.
 
-## Available Scripts
+## Table of Contents
+- [About](#about)
+- [Technologies Used](#technologies-used)
+- [Projects](#projects)
+- [Experience](#experience)
+- [How to Set Up GitHub Pages](#how-to-set-up-github-pages)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
 
-In the project directory, you can run:
+## About
+This is a simple, clean, and responsive portfolio website that provides information about my academic background, skills, and projects. It is designed to be visually appealing and easy to navigate.
 
-### `npm start`
+## Technologies Used
+- **HTML**: For the basic structure of the webpage.
+- **CSS**: Used for styling the webpage and creating a clean and consistent layout.
+- **GitHub Pages**: For hosting the website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Projects
+1. **AI-Amatya**: A web application built using Flask and Python to process and query the content of PDF documents.
+2. **EduPredictor**: A scalable AI system built with AWS for predicting student performance.
+3. **Ad-Predict**: Uses Python, NumPy, and Pandas for analyzing the impact of marketing expenses on sales.
+4. **AskHowLabs**: A React JS-based web app to showcase company services.
+5. **Farm-Connect**: A software solution for managing crop inventory built using React JS, SCSS, and MySQL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Experience
+- **Software Development Engineer Intern** at **Trustworthy** (May 2024 - Present)
+  - Technologies: NextJS, NestJS, AWS
+  - Focused on security and user experience improvements.
+  
+- **Software Development Engineer Intern (Frontend)** at **DeepByte Technology** (Oct 2023 - Nov 2023)
+  - Technologies: React, TypeScript, SCSS
+  - Contributed to an online shopping platform's user interface development.
 
-### `npm test`
+## How to Set Up GitHub Pages
+To host this website on GitHub Pages, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Step 1: Fork/Clone the Repository
+1. Clone this repository to your local machine or fork it to your GitHub account.
+   ```bash
+   git clone https://github.com/your-username/amogh.github.io
+   cd amogh.github.io
