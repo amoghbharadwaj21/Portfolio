@@ -1,18 +1,16 @@
 # Amogh's Portfolio Website
 
-This repository contains the source code for my personal portfolio website, which showcases my skills, projects, and experience. The website is hosted on GitHub Pages.
-
+This repository showcases my skills, projects, and experience.
 ## Table of Contents
 - [About](#about)
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
 - [Experience](#experience)
-- [How to Set Up GitHub Pages](#how-to-set-up-github-pages)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
 
 ## About
-This is a simple, clean, and responsive portfolio website that provides information about my academic background, skills, and projects. It is designed to be visually appealing and easy to navigate.
+A highly motivated student with a strong passion for technology and innovation, currently pursuing a Bachelor of Engineering in Artificial Intelligence and Machine Learning at RNS Institute of Technology, Bengaluru.
+
+My academic journey, coupled with hands-on experience in various projects and internships, has equipped me with the skills and knowledge to tackle real-world challenges and drive impactful change.
 
 ## Technologies Used
 - **HTML**: For the basic structure of the webpage.
