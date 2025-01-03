@@ -44,6 +44,41 @@ function Projects() {
                         </a>
                     </div>
 
+                    {/* Medic AI */}
+                    <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                    <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
+                            Medico AI
+                        </h3>
+                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                            Python
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Flask
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Scikit-learn
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                CNN
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Generative AI
+                            </span>
+                        </div>
+                        <p className="mt-4 mb-4 text-gray-500 dark:text-gray-400 text-justify">
+                        Developed an advanced healthcare AI system for malaria detection with a custom CNN and created predictive models for multiple diseases using Random Forest, and integrated Generative AI for robust patient diagnosis.
+                        </p>
+
+                        <a href="https://medico-ai-d1z0.onrender.com" title="View Project"
+                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            role="button">
+                            View Project
+                            <FaArrowRight className="w-4 h-4 ml-2 -mr-1" />
+
+                        </a>
+                    </div>
+
                     {/* Student Performance Prediction Card */}
                     <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 border-2 border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
                     <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
