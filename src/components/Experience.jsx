@@ -14,9 +14,34 @@ function Experience() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12 text-center">
+
+                    <div className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
+                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Project Management Intern</h3>
+                        <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-3">
+                            Government Tool Room and Training Centre
+                        </p>
+                        <div className="mt-4 mb-6 flex justify-center flex-wrap gap-2">
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Google Workspace
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                Slack
+                            </span>
+                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+                                ChatGPT
+                            </span>
+                        </div>
+                        <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">
+                            Handled task delegation, progress tracking, and coordination across various teams and projects. Contributed to documentation and reporting, gaining practical experience in software project execution and team leadership. Gained exposure to government-sponsored technical initiatives and public sector software project operations.
+                        </p>
+                        <p className="mt-3 text-sm font-medium text-gray-500 dark:text-gray-400">
+                            Feb 2025 - May 2025
+                        </p>
+                    </div>
+
                     {/* Trustworthy Card */}
                     <div className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern</h3>
                         <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-3">
                             Trustworthy
                         </p>
@@ -35,7 +60,7 @@ function Experience() {
                             Focused on enhancing security and user experience by developing a secure login process and integrating social login options. Improved website aesthetics with advanced styling techniques.
                         </p>
                         <p className="mt-3 text-sm font-medium text-gray-500 dark:text-gray-400">
-                            May 2024 - Present
+                            May 2024 - Oct 2024
                         </p>
                     </div>
 
