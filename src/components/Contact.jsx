@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 function Contact() {
@@ -15,20 +15,7 @@ function Contact() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-8 lg:grid-cols-4">
-                    {/* Instagram Card */}
-                    <a
-                        href="https://www.instagram.com/amogha_bharadwaj/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg dark:hover:bg-gray-700 hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500"
-                    >
-                        <FaInstagram className="w-16 h-16 text-primary-600 dark:text-primary-300 mb-4" />
-                        <h3 className="text-xl font-semibold leading-tight text-gray-900 dark:text-white">
-                            Instagram
-                        </h3>
-                        <span className="text-gray-500 dark:text-gray-400">Follow me for updates and more!</span>
-                    </a>
+                <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-8 lg:grid-cols-3">
 
                     {/* LinkedIn Card */}
                     <a

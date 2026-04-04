@@ -43,9 +43,11 @@ function TechStack() {
                         <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>NumPy</li>
                             <li>Pandas</li>
-                            <li>Matplotlib</li>
-                            <li>Scikit-learn</li>
                             <li>Flask</li>
+                            <li>FastAPI</li>
+                            <li>FastMCP</li>
+                            <li>Pydantic</li>
+                            <li>Langchain</li>
                         </ul>
                     </div>
 
@@ -71,6 +73,7 @@ function TechStack() {
                         <ul className="text-gray-500 dark:text-gray-400 list-none flex flex-col items-center">
                             <li>MySQL</li>
                             <li>MongoDB</li>
+                            <li>ChromaDB</li>
                         </ul>
                     </div>
                 </div>

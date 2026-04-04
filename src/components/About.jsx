@@ -10,10 +10,9 @@ function About() {
                         Hi, I’m Amogh!
                     </h2>
                     <p className="mb-4 text-justify lg:text-left">
-                        A highly motivated student with a strong passion for technology and innovation, currently pursuing a Bachelor of Engineering in Artificial Intelligence and Machine Learning at RNS Institute of Technology, Bengaluru.
-                    </p>
+                        A highly motivated early-career technology professional with a strong passion for technology and innovation, with a Bachelor of Engineering in Artificial Intelligence and Machine Learning from RNS Institute of Technology, Bengaluru.                    </p>
                     <p className="mb-4 text-justify lg:text-left">
-                        My academic journey, coupled with hands-on experience in various projects and internships, has equipped me with the skills and knowledge to tackle real-world challenges and drive impactful change.
+                        With hands-on experience across projects and professional engagements, I have developed the ability to apply technical concepts to real-world challenges and contribute to building impactful, scalable solutions.
                     </p>
                     <blockquote className="text-lg italic text-gray-700 dark:text-gray-300">
                         <p>"Driven by Dedication, Defined by Results"</p>

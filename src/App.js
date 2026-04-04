@@ -8,6 +8,7 @@ import TechStack from './components/TechStack';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Internship from './components/Internship';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Navbar />
       <About />
       <TechStack />
-      <Projects />
       <Experience />
+      <Internship />
+      <Projects />
       <Resume />
       <Testimonials />
       <Contact />
