@@ -16,7 +16,7 @@ function Experience() {
                 <div className="grid grid-cols-1 gap-6 mt-12 text-center justify-items-center">
                     {/* KPIT Technology Card */}
                     <div className="p-6 bg-white border-2 border-transparent rounded-lg shadow-md dark:bg-gray-800 dark:border-transparent hover:border-blue-500 dark:hover:border-blue-300 transition-colors">
-                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Development Engineer Intern (Frontend)</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Associate AI Engineer</h3>
                         <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-3">
                             KPIT Technologies
                         </p>
@@ -25,16 +25,13 @@ function Experience() {
                                 Python
                             </span>
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                Pydantic
-                            </span>
-                            <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 FastAPI
                             </span>
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
                                 FastMCP
                             </span>
                             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-                                LangChain
+                                Generative AI
                             </span>
                         </div>
                         <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">
